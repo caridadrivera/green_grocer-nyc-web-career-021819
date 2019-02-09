@@ -1,5 +1,9 @@
+require "pry"
+
+
 def consolidate_cart(cart)
-  # code here
+ new_hash = hash[*cart.flatten]
+  binding.pry
 end
 
 def apply_coupons(cart, coupons)
